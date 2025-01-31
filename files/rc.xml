@@ -25,7 +25,7 @@
   </placement>
   <!-- Theme -->
   <theme>
-    <name>OB-Arc-Dark</name>
+    <name>OB-Catppuccin-Macchiato</name>
     <titleLayout>DLIMC</titleLayout>
     <keepBorder>no</keepBorder>
     <animateIconify>yes</animateIconify>
@@ -618,6 +618,16 @@
         <command>ob-brightness --inc</command>
       </action>
     </keybind>
+    <keybind key="W-F5">
+      <action name="Execute">
+        <command>ob-keyboard-backlight increase</command>
+      </action>
+    </keybind>
+    <keybind key="W-F4">
+      <action name="Execute">
+        <command>ob-keyboard-backlight decrease</command>
+      </action>
+    </keybind>
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
         <command>ob-brightness --dec</command>
@@ -684,7 +694,7 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>firefox</command>
+        <command>google-chrome-stable</command>
       </action>
     </keybind>
     <keybind key="W-e">
